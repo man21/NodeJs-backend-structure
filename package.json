@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-backend-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/man21/NodeJs-backend-structure.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "express",
+    "backend",
+    "structure"
+  ],
+  "author": "Mandeep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/man21/NodeJs-backend-structure/issues"
+  },
+  "homepage": "https://github.com/man21/NodeJs-backend-structure#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "hsts": "^2.2.0",
+    "http": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
